@@ -2,12 +2,13 @@ package com.jmedeisis.example.draglinearlayout;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-
+import androidx.appcompat.app.AppCompatActivity;
 import com.jmedeisis.draglinearlayout.DragLinearLayout;
+import com.jmedeisis.example.draglinearlayout.R;
 
-public class DemoActivity extends AppCompatActivity {
+public class DemoActivity extends AppCompatActivity
+{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

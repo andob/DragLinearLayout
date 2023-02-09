@@ -7,7 +7,6 @@
     <string name="list_item_2">Swap with me! Swap with me!</string>
     <string name="list_item_3">I\'m quite sensitive\nabout my height.</string>
     <string name="list_item_4">I heard that one of us is a Button!</string>
-    <string name="list_item_nodrag">Someone forgot to make me draggable…</string>
     <string name="scroll_view_title">Linear layout within ScrollView</string>
     <string name="default_icon_description">Icon.</string>
     <string name="note_add_prompt">Add new note</string>
