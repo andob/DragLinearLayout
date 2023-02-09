@@ -18,8 +18,16 @@ Usage
 -----
 Add it to your project using Gradle:
 
-```groovy
-compile 'com.jmedeisis:draglinearlayout:1.1.0'
+```
+repositories {
+    maven { url "https://maven.andob.info/repository/open_source" }
+}
+```
+
+```
+dependencies {
+    implementation 'ro.andob.draglinearlayout:draglinearlayout:1.1.1'
+}
 ```
 
 The `DragLinearLayout` can be used in place of any `LinearLayout`. However, by default, children
