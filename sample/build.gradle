@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     namespace 'com.jmedeisis.example.draglinearlayout'
-    compileSdkVersion 33
+    compileSdk 34
     defaultConfig {
         applicationId "com.jmedeisis.example.draglinearlayout"
-        minSdkVersion 21
-        targetSdkVersion 33
+        minSdk 21
+        targetSdk 34
     }
     buildTypes {
         release {
@@ -18,5 +18,5 @@ android {
 
 dependencies {
     implementation project(":library")
-    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
 }

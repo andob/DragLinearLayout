@@ -26,7 +26,7 @@ repositories {
 
 ```
 dependencies {
-    implementation 'ro.andob.draglinearlayout:draglinearlayout:1.1.1'
+    implementation 'ro.andob.draglinearlayout:draglinearlayout:1.1.2'
 }
 ```
 

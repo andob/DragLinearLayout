@@ -154,6 +154,8 @@ public class DragLinearLayout extends LinearLayout {
             if (null != view) view.setVisibility(startVisibility);
             view = null;
             startVisibility = -1;
+            if (viewDrawable!=null)
+                viewDrawable.getBitmap().recycle();
             viewDrawable = null;
             position = -1;
             startTop = -1;

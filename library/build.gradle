@@ -3,10 +3,10 @@ apply plugin: 'maven-publish'
 
 android {
     namespace 'com.jmedeisis.draglinearlayout'
-    compileSdkVersion 33
+    compileSdk 34
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdk 34
     }
     buildTypes {
         release {
@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
 }
 
 project.afterEvaluate {
@@ -38,7 +38,7 @@ project.afterEvaluate {
                 from components.release
                 groupId 'ro.andob.draglinearlayout'
                 artifactId 'draglinearlayout'
-                version '1.1.1'
+                version '1.1.2'
             }
         }
     }
